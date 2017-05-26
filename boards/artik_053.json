@@ -1,0 +1,38 @@
+{
+  "build": {
+    "cpu": "cortex-r4",
+    "f_cpu": "320000000L",
+    "mcu": "s5jt200"
+  },
+  "debug": {
+    "tools": {
+      "ftdi": {
+        "onboard": true,
+        "extra_cmds": [
+          "monitor cortex_r4 maskisr on",
+          "monitor reset halt",
+          "b main"
+        ],
+        "load_cmd": [],
+        "server": {
+          "arguments": [
+            "-f",
+            "artik_053.cfg"
+          ],
+          "executable": "openocd",
+          "package": "tool-artik-openocd"
+        }
+      }
+    }
+  },
+  "frameworks": [
+    "tizenrt"
+  ],
+  "name": "Samsung ARTIK053",
+  "upload": {
+    "maximum_ram_size": 1310720,
+    "maximum_size": 8388608
+  },
+  "url": "http://www.artik.io",
+  "vendor": "Samsung"
+}

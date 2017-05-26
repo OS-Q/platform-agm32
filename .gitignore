@@ -1,0 +1,6 @@
+*.pyc
+.pio/
+.vscode/
+README
+README.rst
+.travis.yml
