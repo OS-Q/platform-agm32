@@ -1,0 +1,414 @@
+Dependencies for Project 'Project', Target 'Qitas': (DO NOT MODIFY !)
+F (..\USER\main.c)(0x5927A142)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\CM3\CoreSupport -I ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\arm -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\Libraries\STM32F10x_StdPeriph_Driver\src -I ..\USER -I ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\USER\Connect -I ..\USER\Console -I ..\USER\Connect\CC1101-I C:\Users\Yuenjee\Desktop\CC1101\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F10X_MD-o .\obj\main.o --omf_browse .\obj\main.crf --depend .\obj\main.d)
+I (..\USER\Connect\usart1.h)(0x592798C0)
+I (..\USER\Console\MAP.h)(0x59277E4F)
+I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x59277EDB)
+I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x59277ED5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x59277ED6)
+I (..\USER\stm32f10x_conf.h)(0x59279826)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x59277ED4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x59277ED3)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x59277ED2)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x59277ED1)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x59277ED1)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x59277ED0)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x59277ED5)
+I (..\USER\Connect\CC1101\CC1101.h)(0x59279CC6)
+F (..\USER\stm32f10x_it.c)(0x59277E47)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\CM3\CoreSupport -I ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\arm -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\Libraries\STM32F10x_StdPeriph_Driver\src -I ..\USER -I ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\USER\Connect -I ..\USER\Console -I ..\USER\Connect\CC1101-I C:\Users\Yuenjee\Desktop\CC1101\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F10X_MD-o .\obj\stm32f10x_it.o --omf_browse .\obj\stm32f10x_it.crf --depend .\obj\stm32f10x_it.d)
+I (..\USER\stm32f10x_it.h)(0x59277E47)
+I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x59277EDB)
+I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x59277ED5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x59277ED6)
+I (..\USER\stm32f10x_conf.h)(0x59279826)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x59277ED4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x59277ED3)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x59277ED2)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x59277ED1)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x59277ED1)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x59277ED0)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x59277ED5)
+F (..\USER\stm32f10x_conf.h)(0x59279826)()
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c)(0x59277ED0)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\CM3\CoreSupport -I ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\arm -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\Libraries\STM32F10x_StdPeriph_Driver\src -I ..\USER -I ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\USER\Connect -I ..\USER\Console -I ..\USER\Connect\CC1101-I C:\Users\Yuenjee\Desktop\CC1101\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F10X_MD-o .\obj\misc.o --omf_browse .\obj\misc.crf --depend .\obj\misc.d)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x59277ED5)
+I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x59277EDB)
+I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x59277ED5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x59277ED6)
+I (..\USER\stm32f10x_conf.h)(0x59279826)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x59277ED4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x59277ED3)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x59277ED2)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x59277ED1)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x59277ED1)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x59277ED0)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c)(0x59277ECE)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\CM3\CoreSupport -I ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\arm -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\Libraries\STM32F10x_StdPeriph_Driver\src -I ..\USER -I ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\USER\Connect -I ..\USER\Console -I ..\USER\Connect\CC1101-I C:\Users\Yuenjee\Desktop\CC1101\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F10X_MD-o .\obj\stm32f10x_flash.o --omf_browse .\obj\stm32f10x_flash.crf --depend .\obj\stm32f10x_flash.d)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x59277ED3)
+I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x59277EDB)
+I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x59277ED5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x59277ED6)
+I (..\USER\stm32f10x_conf.h)(0x59279826)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x59277ED4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x59277ED3)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x59277ED2)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x59277ED1)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x59277ED1)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x59277ED0)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x59277ED5)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c)(0x59277ECD)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\CM3\CoreSupport -I ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\arm -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\Libraries\STM32F10x_StdPeriph_Driver\src -I ..\USER -I ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\USER\Connect -I ..\USER\Console -I ..\USER\Connect\CC1101-I C:\Users\Yuenjee\Desktop\CC1101\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F10X_MD-o .\obj\stm32f10x_gpio.o --omf_browse .\obj\stm32f10x_gpio.crf --depend .\obj\stm32f10x_gpio.d)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x59277ED3)
+I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x59277EDB)
+I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x59277ED5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x59277ED6)
+I (..\USER\stm32f10x_conf.h)(0x59279826)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x59277ED4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x59277ED2)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x59277ED1)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x59277ED1)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x59277ED0)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x59277ED5)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c)(0x59277ED3)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\CM3\CoreSupport -I ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\arm -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\Libraries\STM32F10x_StdPeriph_Driver\src -I ..\USER -I ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\USER\Connect -I ..\USER\Console -I ..\USER\Connect\CC1101-I C:\Users\Yuenjee\Desktop\CC1101\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F10X_MD-o .\obj\stm32f10x_rcc.o --omf_browse .\obj\stm32f10x_rcc.crf --depend .\obj\stm32f10x_rcc.d)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x59277ED2)
+I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x59277EDB)
+I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x59277ED5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x59277ED6)
+I (..\USER\stm32f10x_conf.h)(0x59279826)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x59277ED4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x59277ED3)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x59277ED1)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x59277ED1)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x59277ED0)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x59277ED5)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_adc.c)(0x59277ED0)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\CM3\CoreSupport -I ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\arm -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\Libraries\STM32F10x_StdPeriph_Driver\src -I ..\USER -I ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\USER\Connect -I ..\USER\Console -I ..\USER\Connect\CC1101-I C:\Users\Yuenjee\Desktop\CC1101\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F10X_MD-o .\obj\stm32f10x_adc.o --omf_browse .\obj\stm32f10x_adc.crf --depend .\obj\stm32f10x_adc.d)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x59277ED6)
+I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x59277EDB)
+I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x59277ED5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x59277ED6)
+I (..\USER\stm32f10x_conf.h)(0x59279826)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x59277ED4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x59277ED3)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x59277ED2)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x59277ED1)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x59277ED1)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x59277ED0)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x59277ED5)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c)(0x59277ED0)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\CM3\CoreSupport -I ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\arm -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\Libraries\STM32F10x_StdPeriph_Driver\src -I ..\USER -I ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\USER\Connect -I ..\USER\Console -I ..\USER\Connect\CC1101-I C:\Users\Yuenjee\Desktop\CC1101\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F10X_MD-o .\obj\stm32f10x_bkp.o --omf_browse .\obj\stm32f10x_bkp.crf --depend .\obj\stm32f10x_bkp.d)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x59277ED5)
+I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x59277EDB)
+I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x59277ED5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x59277ED6)
+I (..\USER\stm32f10x_conf.h)(0x59279826)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x59277ED4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x59277ED3)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x59277ED2)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x59277ED1)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x59277ED1)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x59277ED0)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x59277ED5)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.c)(0x59277ED0)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\CM3\CoreSupport -I ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\arm -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\Libraries\STM32F10x_StdPeriph_Driver\src -I ..\USER -I ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\USER\Connect -I ..\USER\Console -I ..\USER\Connect\CC1101-I C:\Users\Yuenjee\Desktop\CC1101\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F10X_MD-o .\obj\stm32f10x_can.o --omf_browse .\obj\stm32f10x_can.crf --depend .\obj\stm32f10x_can.d)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x59277ED5)
+I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x59277EDB)
+I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x59277ED5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x59277ED6)
+I (..\USER\stm32f10x_conf.h)(0x59279826)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x59277ED4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x59277ED3)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x59277ED2)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x59277ED1)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x59277ED1)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x59277ED0)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x59277ED5)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_cec.c)(0x59277ED0)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\CM3\CoreSupport -I ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\arm -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\Libraries\STM32F10x_StdPeriph_Driver\src -I ..\USER -I ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\USER\Connect -I ..\USER\Console -I ..\USER\Connect\CC1101-I C:\Users\Yuenjee\Desktop\CC1101\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F10X_MD-o .\obj\stm32f10x_cec.o --omf_browse .\obj\stm32f10x_cec.crf --depend .\obj\stm32f10x_cec.d)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x59277ED4)
+I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x59277EDB)
+I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x59277ED5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x59277ED6)
+I (..\USER\stm32f10x_conf.h)(0x59279826)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x59277ED4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x59277ED3)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x59277ED2)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x59277ED1)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x59277ED1)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x59277ED0)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x59277ED5)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_crc.c)(0x59277ECF)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\CM3\CoreSupport -I ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\arm -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\Libraries\STM32F10x_StdPeriph_Driver\src -I ..\USER -I ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\USER\Connect -I ..\USER\Console -I ..\USER\Connect\CC1101-I C:\Users\Yuenjee\Desktop\CC1101\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F10X_MD-o .\obj\stm32f10x_crc.o --omf_browse .\obj\stm32f10x_crc.crf --depend .\obj\stm32f10x_crc.d)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x59277ED4)
+I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x59277EDB)
+I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x59277ED5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x59277ED6)
+I (..\USER\stm32f10x_conf.h)(0x59279826)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x59277ED4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x59277ED3)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x59277ED2)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x59277ED1)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x59277ED1)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x59277ED0)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x59277ED5)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dac.c)(0x59277ECF)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\CM3\CoreSupport -I ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\arm -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\Libraries\STM32F10x_StdPeriph_Driver\src -I ..\USER -I ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\USER\Connect -I ..\USER\Console -I ..\USER\Connect\CC1101-I C:\Users\Yuenjee\Desktop\CC1101\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F10X_MD-o .\obj\stm32f10x_dac.o --omf_browse .\obj\stm32f10x_dac.crf --depend .\obj\stm32f10x_dac.d)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x59277ED4)
+I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x59277EDB)
+I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x59277ED5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x59277ED6)
+I (..\USER\stm32f10x_conf.h)(0x59279826)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x59277ED4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x59277ED3)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x59277ED2)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x59277ED1)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x59277ED1)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x59277ED0)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x59277ED5)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dbgmcu.c)(0x59277ECE)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\CM3\CoreSupport -I ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\arm -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\Libraries\STM32F10x_StdPeriph_Driver\src -I ..\USER -I ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\USER\Connect -I ..\USER\Console -I ..\USER\Connect\CC1101-I C:\Users\Yuenjee\Desktop\CC1101\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F10X_MD-o .\obj\stm32f10x_dbgmcu.o --omf_browse .\obj\stm32f10x_dbgmcu.crf --depend .\obj\stm32f10x_dbgmcu.d)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x59277ED4)
+I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x59277EDB)
+I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x59277ED5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x59277ED6)
+I (..\USER\stm32f10x_conf.h)(0x59279826)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x59277ED4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x59277ED3)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x59277ED2)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x59277ED1)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x59277ED1)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x59277ED0)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x59277ED5)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c)(0x59277ECE)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\CM3\CoreSupport -I ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\arm -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\Libraries\STM32F10x_StdPeriph_Driver\src -I ..\USER -I ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\USER\Connect -I ..\USER\Console -I ..\USER\Connect\CC1101-I C:\Users\Yuenjee\Desktop\CC1101\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F10X_MD-o .\obj\stm32f10x_dma.o --omf_browse .\obj\stm32f10x_dma.crf --depend .\obj\stm32f10x_dma.d)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x59277ED5)
+I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x59277EDB)
+I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x59277ED5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x59277ED6)
+I (..\USER\stm32f10x_conf.h)(0x59279826)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x59277ED4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x59277ED3)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x59277ED2)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x59277ED1)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x59277ED1)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x59277ED0)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x59277ED5)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c)(0x59277ECE)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\CM3\CoreSupport -I ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\arm -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\Libraries\STM32F10x_StdPeriph_Driver\src -I ..\USER -I ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\USER\Connect -I ..\USER\Console -I ..\USER\Connect\CC1101-I C:\Users\Yuenjee\Desktop\CC1101\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F10X_MD-o .\obj\stm32f10x_exti.o --omf_browse .\obj\stm32f10x_exti.crf --depend .\obj\stm32f10x_exti.d)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x59277ED4)
+I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x59277EDB)
+I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x59277ED5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x59277ED6)
+I (..\USER\stm32f10x_conf.h)(0x59279826)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x59277ED3)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x59277ED2)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x59277ED1)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x59277ED1)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x59277ED0)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x59277ED5)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c)(0x59277ECE)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\CM3\CoreSupport -I ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\arm -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\Libraries\STM32F10x_StdPeriph_Driver\src -I ..\USER -I ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\USER\Connect -I ..\USER\Console -I ..\USER\Connect\CC1101-I C:\Users\Yuenjee\Desktop\CC1101\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F10X_MD-o .\obj\stm32f10x_fsmc.o --omf_browse .\obj\stm32f10x_fsmc.crf --depend .\obj\stm32f10x_fsmc.d)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x59277ED3)
+I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x59277EDB)
+I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x59277ED5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x59277ED6)
+I (..\USER\stm32f10x_conf.h)(0x59279826)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x59277ED4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x59277ED3)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x59277ED2)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x59277ED1)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x59277ED1)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x59277ED0)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x59277ED5)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.c)(0x59277ECD)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\CM3\CoreSupport -I ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\arm -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\Libraries\STM32F10x_StdPeriph_Driver\src -I ..\USER -I ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\USER\Connect -I ..\USER\Console -I ..\USER\Connect\CC1101-I C:\Users\Yuenjee\Desktop\CC1101\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F10X_MD-o .\obj\stm32f10x_i2c.o --omf_browse .\obj\stm32f10x_i2c.crf --depend .\obj\stm32f10x_i2c.d)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x59277ED2)
+I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x59277EDB)
+I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x59277ED5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x59277ED6)
+I (..\USER\stm32f10x_conf.h)(0x59279826)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x59277ED4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x59277ED3)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x59277ED2)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x59277ED1)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x59277ED1)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x59277ED0)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x59277ED5)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_iwdg.c)(0x59277ECD)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\CM3\CoreSupport -I ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\arm -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\Libraries\STM32F10x_StdPeriph_Driver\src -I ..\USER -I ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\USER\Connect -I ..\USER\Console -I ..\USER\Connect\CC1101-I C:\Users\Yuenjee\Desktop\CC1101\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F10X_MD-o .\obj\stm32f10x_iwdg.o --omf_browse .\obj\stm32f10x_iwdg.crf --depend .\obj\stm32f10x_iwdg.d)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x59277ED2)
+I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x59277EDB)
+I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x59277ED5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x59277ED6)
+I (..\USER\stm32f10x_conf.h)(0x59279826)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x59277ED4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x59277ED3)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x59277ED2)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x59277ED1)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x59277ED1)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x59277ED0)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x59277ED5)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c)(0x59277ECC)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\CM3\CoreSupport -I ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\arm -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\Libraries\STM32F10x_StdPeriph_Driver\src -I ..\USER -I ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\USER\Connect -I ..\USER\Console -I ..\USER\Connect\CC1101-I C:\Users\Yuenjee\Desktop\CC1101\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F10X_MD-o .\obj\stm32f10x_pwr.o --omf_browse .\obj\stm32f10x_pwr.crf --depend .\obj\stm32f10x_pwr.d)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x59277ED2)
+I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x59277EDB)
+I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x59277ED5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x59277ED6)
+I (..\USER\stm32f10x_conf.h)(0x59279826)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x59277ED4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x59277ED3)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x59277ED2)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x59277ED1)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x59277ED1)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x59277ED0)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x59277ED5)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c)(0x59277ECD)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\CM3\CoreSupport -I ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\arm -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\Libraries\STM32F10x_StdPeriph_Driver\src -I ..\USER -I ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\USER\Connect -I ..\USER\Console -I ..\USER\Connect\CC1101-I C:\Users\Yuenjee\Desktop\CC1101\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F10X_MD-o .\obj\stm32f10x_rtc.o --omf_browse .\obj\stm32f10x_rtc.crf --depend .\obj\stm32f10x_rtc.d)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x59277ED1)
+I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x59277EDB)
+I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x59277ED5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x59277ED6)
+I (..\USER\stm32f10x_conf.h)(0x59279826)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x59277ED4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x59277ED3)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x59277ED2)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x59277ED1)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x59277ED0)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x59277ED5)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.c)(0x59277EA3)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\CM3\CoreSupport -I ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\arm -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\Libraries\STM32F10x_StdPeriph_Driver\src -I ..\USER -I ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\USER\Connect -I ..\USER\Console -I ..\USER\Connect\CC1101-I C:\Users\Yuenjee\Desktop\CC1101\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F10X_MD-o .\obj\stm32f10x_sdio.o --omf_browse .\obj\stm32f10x_sdio.crf --depend .\obj\stm32f10x_sdio.d)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x59277ED1)
+I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x59277EDB)
+I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x59277ED5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x59277ED6)
+I (..\USER\stm32f10x_conf.h)(0x59279826)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x59277ED4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x59277ED3)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x59277ED2)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x59277ED1)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x59277ED1)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x59277ED0)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x59277ED5)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c)(0x59277EA2)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\CM3\CoreSupport -I ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\arm -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\Libraries\STM32F10x_StdPeriph_Driver\src -I ..\USER -I ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\USER\Connect -I ..\USER\Console -I ..\USER\Connect\CC1101-I C:\Users\Yuenjee\Desktop\CC1101\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F10X_MD-o .\obj\stm32f10x_spi.o --omf_browse .\obj\stm32f10x_spi.crf --depend .\obj\stm32f10x_spi.d)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x59277ED1)
+I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x59277EDB)
+I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x59277ED5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x59277ED6)
+I (..\USER\stm32f10x_conf.h)(0x59279826)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x59277ED4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x59277ED3)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x59277ED2)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x59277ED1)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x59277ED1)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x59277ED0)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x59277ED5)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c)(0x59277EA3)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\CM3\CoreSupport -I ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\arm -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\Libraries\STM32F10x_StdPeriph_Driver\src -I ..\USER -I ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\USER\Connect -I ..\USER\Console -I ..\USER\Connect\CC1101-I C:\Users\Yuenjee\Desktop\CC1101\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F10X_MD-o .\obj\stm32f10x_tim.o --omf_browse .\obj\stm32f10x_tim.crf --depend .\obj\stm32f10x_tim.d)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x59277ED1)
+I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x59277EDB)
+I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x59277ED5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x59277ED6)
+I (..\USER\stm32f10x_conf.h)(0x59279826)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x59277ED4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x59277ED3)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x59277ED2)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x59277ED1)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x59277ED0)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x59277ED5)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c)(0x59277EA2)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\CM3\CoreSupport -I ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\arm -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\Libraries\STM32F10x_StdPeriph_Driver\src -I ..\USER -I ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\USER\Connect -I ..\USER\Console -I ..\USER\Connect\CC1101-I C:\Users\Yuenjee\Desktop\CC1101\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F10X_MD-o .\obj\stm32f10x_usart.o --omf_browse .\obj\stm32f10x_usart.crf --depend .\obj\stm32f10x_usart.d)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x59277ED0)
+I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x59277EDB)
+I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x59277ED5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x59277ED6)
+I (..\USER\stm32f10x_conf.h)(0x59279826)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x59277ED4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x59277ED3)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x59277ED2)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x59277ED1)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x59277ED1)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x59277ED5)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_wwdg.c)(0x59277EA1)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\CM3\CoreSupport -I ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\arm -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\Libraries\STM32F10x_StdPeriph_Driver\src -I ..\USER -I ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\USER\Connect -I ..\USER\Console -I ..\USER\Connect\CC1101-I C:\Users\Yuenjee\Desktop\CC1101\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F10X_MD-o .\obj\stm32f10x_wwdg.o --omf_browse .\obj\stm32f10x_wwdg.crf --depend .\obj\stm32f10x_wwdg.d)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x59277ED0)
+I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x59277EDB)
+I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x59277ED5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x59277ED6)
+I (..\USER\stm32f10x_conf.h)(0x59279826)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x59277ED4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x59277ED3)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x59277ED2)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x59277ED1)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x59277ED1)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x59277ED0)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x59277ED5)
+F (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.c)(0x59277ED6)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\CM3\CoreSupport -I ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\arm -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\Libraries\STM32F10x_StdPeriph_Driver\src -I ..\USER -I ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\USER\Connect -I ..\USER\Console -I ..\USER\Connect\CC1101-I C:\Users\Yuenjee\Desktop\CC1101\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F10X_MD-o .\obj\core_cm3.o --omf_browse .\obj\core_cm3.crf --depend .\obj\core_cm3.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+F (..\USER\system_stm32f10x.c)(0x59277E46)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\CM3\CoreSupport -I ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\arm -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\Libraries\STM32F10x_StdPeriph_Driver\src -I ..\USER -I ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\USER\Connect -I ..\USER\Console -I ..\USER\Connect\CC1101-I C:\Users\Yuenjee\Desktop\CC1101\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F10X_MD-o .\obj\system_stm32f10x.o --omf_browse .\obj\system_stm32f10x.crf --depend .\obj\system_stm32f10x.d)
+I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x59277EDB)
+I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x59277ED5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x59277ED6)
+I (..\USER\stm32f10x_conf.h)(0x59279826)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x59277ED4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x59277ED3)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x59277ED2)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x59277ED1)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x59277ED1)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x59277ED0)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x59277ED5)
+F (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\arm\startup_stm32f10x_hd.s)(0x59277EDE)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Users\Yuenjee\Desktop\CC1101\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 520" --pd "STM32F10X_MD SETA 1"--list .\list\startup_stm32f10x_hd.lst --xref -o .\obj\startup_stm32f10x_hd.o --depend .\obj\startup_stm32f10x_hd.d)
+F (..\USER\Connect\usart1.c)(0x592798A7)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\CM3\CoreSupport -I ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\arm -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\Libraries\STM32F10x_StdPeriph_Driver\src -I ..\USER -I ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\USER\Connect -I ..\USER\Console -I ..\USER\Connect\CC1101-I C:\Users\Yuenjee\Desktop\CC1101\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F10X_MD-o .\obj\usart1.o --omf_browse .\obj\usart1.crf --depend .\obj\usart1.d)
+I (..\USER\Connect\usart1.h)(0x592798C0)
+I (..\USER\Console\MAP.h)(0x59277E4F)
+I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x59277EDB)
+I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x59277ED5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x59277ED6)
+I (..\USER\stm32f10x_conf.h)(0x59279826)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x59277ED4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x59277ED3)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x59277ED2)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x59277ED1)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x59277ED1)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x59277ED0)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x59277ED5)
+F (..\USER\Connect\CC1101\CC1101.c)(0x59279CC6)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\CM3\CoreSupport -I ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\arm -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\Libraries\STM32F10x_StdPeriph_Driver\src -I ..\USER -I ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\USER\Connect -I ..\USER\Console -I ..\USER\Connect\CC1101-I C:\Users\Yuenjee\Desktop\CC1101\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F10X_MD-o .\obj\cc1101.o --omf_browse .\obj\cc1101.crf --depend .\obj\cc1101.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
+I (..\USER\Connect\CC1101\regs.h)(0x5912BCD2)
+I (..\USER\Connect\CC1101\CC1101.h)(0x59279CC6)
+I (..\USER\Console\map.h)(0x59277E4F)
+I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x59277EDB)
+I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x59277ED5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x59277ED6)
+I (..\USER\stm32f10x_conf.h)(0x59279826)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x59277ED4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x59277ED3)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x59277ED2)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x59277ED1)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x59277ED1)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x59277ED0)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x59277ED5)
+I (..\USER\Connect\CC1101\hal.h)(0x59279C92)
+F (..\USER\Connect\CC1101\hal.c)(0x59279DA8)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS\CM3\CoreSupport -I ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\arm -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\Libraries\STM32F10x_StdPeriph_Driver\src -I ..\USER -I ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I ..\USER\Connect -I ..\USER\Console -I ..\USER\Connect\CC1101-I C:\Users\Yuenjee\Desktop\CC1101\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="520" -DSTM32F10X_MD-o .\obj\hal.o --omf_browse .\obj\hal.crf --depend .\obj\hal.d)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x59277ED1)
+I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x59277EDB)
+I (..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h)(0x59277ED5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x59277ED6)
+I (..\USER\stm32f10x_conf.h)(0x59279826)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x59277ED4)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x59277ED3)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x59277ED2)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x59277ED1)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x59277ED1)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x59277ED0)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x59277ED5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
+I (..\USER\Connect\CC1101\regs.h)(0x5912BCD2)
+I (..\USER\Connect\CC1101\hal.h)(0x59279C92)
+I (..\USER\Console\MAP.h)(0x59277E4F)
