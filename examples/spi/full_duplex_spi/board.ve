@@ -1,0 +1,29 @@
+SYSCLK 200
+HSECLK 8
+
+# SPI0_CSN       PIN_5
+# SPI0_SCK       PIN_98
+# SPI0_SI_IO0    PIN_2
+# SPI0_SO_IO1    PIN_4
+SPI0_WPN_IO2   PIN_3
+SPI0_HOLDN_IO3 PIN_97
+
+# Connect these pins to logic to achieve full duplex transfer
+SPI0_CSN    csn
+SPI0_SCK    sck
+SPI0_SI_IO0 si_io0:OUTPUT
+csn         PIN_5:OUTPUT
+sck         PIN_98:OUTPUT
+si_io0      PIN_2:OUTPUT # MOSI
+so_io1      PIN_4:INPUT  # MISO
+
+GPIO6_2 PIN_23 # IO_Button1
+GPIO6_4 PIN_24 # IO_Button2
+
+UART0_UARTRXD PIN_69
+UART0_UARTTXD PIN_68
+
+GPIO4_1 PIN_34 # LED1
+GPIO4_2 PIN_33 # LED2
+GPIO4_3 PIN_32 # LED3
+GPIO4_4 PIN_31 # LED4

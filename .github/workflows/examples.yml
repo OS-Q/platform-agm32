@@ -1,0 +1,53 @@
+name: examples
+
+on:
+  push:
+    branches:
+      - master
+    paths-ignore:
+      - '**.md'
+      - '**.rst'
+      - 'LICENSE'
+      - '.gitignore'
+
+jobs:
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        examples:
+          - "ahb_slave"
+          - "analog"
+          - "custom_ip"
+          - "dfu"
+          - "embOS"
+          - "example"
+          - "freeRTOS"
+          - "lwip"
+          - "rtthread"
+          - "uart_master"
+          - "uCOS"
+
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.OSQ_REPO_TOKEN }}
+          submodules: "recursive"
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+            python-version: '3.11'
+            architecture: 'x64'
+
+      - name: Install 
+        run: |
+          pip install -U https://github.com/os-q/pio/archive/develop.zip
+          pio pkg install --global --platform symlink://.
+
+      - name: Build 
+        working-directory: examples
+        run: |
+          pio run -d ${{ matrix.examples }}

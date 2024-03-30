@@ -1,0 +1,4 @@
+#!/bin/csh -f
+
+pio run -e dev
+cp -rf .pio/build/rom/dfu_uart.bin .

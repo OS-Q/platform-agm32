@@ -1,0 +1,15 @@
+#!/bin/csh -f
+
+pio run -e rom -v
+if ($status != 0) then
+  exit -1
+endif
+cp -rf .pio/build/rom/dfu_uart.bin .
+
+pio run -e usb -v
+if ($status != 0) then
+  exit -1
+endif
+cp -rf .pio/build/usb/dfu_usb.bin .
+
+exit 0

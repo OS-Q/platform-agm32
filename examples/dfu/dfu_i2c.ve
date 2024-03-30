@@ -1,0 +1,4 @@
+SYSCLK 100
+HSECLK 8
+i2c_scl PIN_77
+i2c_sda PIN_89

@@ -1,0 +1,2 @@
+i2c_scl PIN_XXX:INOUT
+i2c_sda PIN_XXX:INOUT

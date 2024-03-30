@@ -1,0 +1,2 @@
+set SPI_DATA_PINS {PIN_2 PIN_3 PIN_4 PIN_97}
+set_instance_assignment -name CURRENT_STRENGTH_NEW -to $SPI_DATA_PINS 2ma

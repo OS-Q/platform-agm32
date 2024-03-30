@@ -1,0 +1,5 @@
+# Use both internal pull-up resistors for smaller resistance
+set_instance_assignment -name WEAK_PULLUP -to PIN_77 true
+set_instance_assignment -name WEAK_PULLUP -to PIN_89 true
+set_instance_assignment -name CFG_KEEP -to PIN_77 2'b10 -extension
+set_instance_assignment -name CFG_KEEP -to PIN_89 2'b10 -extension

@@ -1,0 +1,67 @@
+SYSCLK 240
+
+HSECLK 8
+
+SPI0_HOLDN_IO3 PIN_97
+SPI0_SCK       PIN_98
+SPI0_SI_IO0    PIN_2
+SPI0_WPN_IO2   PIN_3
+SPI0_SO_IO1    PIN_4
+SPI0_CSN       PIN_5
+
+GPIO6_2 PIN_23 # IO_Button1
+GPIO6_4 PIN_24 # IO_Button2
+GPIO6_5 PIN_29 # IO_Switch1, must be disabled if DAC0 is used
+GPIO6_6 PIN_30 # IO_Switch2, must be disabled if DAC1 is used
+
+# Uncomment this line to use EXT_INT0. This is commented out by default because INT_Init() will stuck if PIN_24 is not 
+# weakly pulled up. For example, when this .ve is used on an unintended board.
+# EXT_INT0 PIN_24
+
+USB0_ID PIN_78
+
+UART0_UARTRXD PIN_69
+UART0_UARTTXD PIN_68
+UART1_UARTTXD PIN_67
+UART1_UARTRXD PIN_66
+
+# Pins for RMII
+MAC0_RXD0    PIN_64
+MAC0_RXD1    PIN_63
+MAC0_TXD0    PIN_58
+MAC0_TXD1    PIN_57
+MAC0_TX_EN   PIN_54
+MAC0_CRS     PIN_43
+MAC0_RX_ER   PIN_41
+
+# Extra pins for MII
+# MAC0_RX_DV   PIN_65
+# MAC0_RXD2    PIN_62
+# MAC0_RXD3    PIN_61
+# MAC0_TXD2    PIN_56
+# MAC0_TXD3    PIN_55
+# MAC0_COL     PIN_42
+# MAC0_RX_CLK  PIN_60 # Do NOT assign MAC0_RX_CLK in RMII mode. It should come from the same source as MAC0_TX_CLK
+
+# MAC reset, MDC, MDIO, and clocks
+GPIO5_5      PIN_53 # MAC0_PHYRSTB, any avaible GPIO
+MAC0_MDC     PIN_45
+MAC0_MDIO    PIN_44
+MAC0_TX_CLK  PIN_59 # Optional. If not assigned, MAC will use MAC0_CLK_OUT.
+MAC0_CLK_OUT PIN_40
+
+# INTB is shared with RXD2 on 32-pin. It can be used only in RMII mode.
+MAC0_PHY_INTB PIN_62
+
+CAN0_TX0 PIN_39
+CAN0_RX0 PIN_38
+
+I2C0_SDA PIN_36
+I2C0_SCL PIN_35
+
+GPIO4_1 PIN_34 # LED1
+GPIO4_2 PIN_33 # LED2
+GPIO4_3 PIN_32 # LED3
+GPIO4_4 PIN_31 # LED4
+
+GPTIMER1_CH0 PIN_7

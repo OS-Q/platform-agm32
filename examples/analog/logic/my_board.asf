@@ -1,0 +1,5 @@
+set_instance_assignment -extension -name FIXED_COORD -to macro_inst|gen_per[0].gen_adc.adc_inst|adc_inst {22 7}
+set_instance_assignment -extension -name FIXED_COORD -to macro_inst|gen_per[1].gen_adc.adc_inst|adc_inst {22 8}
+set_instance_assignment -extension -name FIXED_COORD -to macro_inst|gen_per[2].gen_adc.adc_inst|adc_inst {22 9}
+set_instance_assignment -extension -name FIXED_COORD -to macro_inst|gen_per[3].gen_dac.dac_inst|dac_inst {22 11}
+set_instance_assignment -extension -name FIXED_COORD -to macro_inst|gen_per[4].gen_dac.dac_inst|dac_inst {22 12}

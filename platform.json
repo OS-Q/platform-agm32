@@ -1,42 +1,121 @@
 {
-  "name": "P322",
-  "title": "Samsung ARTIK",
-  "description": "The Samsung ARTIK Smart IoT platform brings hardware modules and cloud services together, with built-in security and an ecosystem of tools and partners to speed up your time-to-market.",
-  "url": "http://platformio.org/platforms/samsung_artik",
-  "homepage": "https://www.artik.io",
+  "name": "AgRV",
+  "title": "Agm RiscV",
+  "description": "The AgRV family provides cutting edge re-configurable RISC-V based MCU hardware and software solutions.",
+  "homepage": "https://www.alta-gate.com",
   "license": "Apache-2.0",
-  "engines": {
-    "platformio": "<5"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/platformio/platform-samsung_artik.git"
-  },
-  "version": "1.0.3",
-  "packageRepositories": [
-    "https://dl.bintray.com/platformio/dl-packages/manifest.json",
-    "http://dl.platformio.org/packages/manifest.json",
-    "http://developer.artik.io/downloads/artik_ide/platformio/manifest.json"
+  "keywords": [
+    "dev-platform",
+    "AGM",
+    "AgRV",
+    "RISC-V"
   ],
+  "engines": {
+    "platformio": "^5"
+  },
+  "version": "1.0.0",
   "frameworks": {
-    "tizenrt": {
-      "package": "framework-tizenrt",
-      "script": "builder/frameworks/tizenrt/tizenrt.py"
+    "agrv_sdk": {
+      "package": "framework-agrv_sdk",
+      "script": "builder/frameworks/agrv_sdk.py"
+    },
+    "agrv_ips": {
+      "package": "framework-agrv_ips",
+      "script": "builder/frameworks/agrv_ips.py"
+    },
+    "agrv_tinyusb": {
+      "package": "framework-agrv_tinyusb",
+      "script": "builder/frameworks/agrv_tinyusb.py"
+    },
+    "agrv_lwip": {
+      "package": "framework-agrv_lwip",
+      "script": "builder/frameworks/agrv_lwip.py"
+    },
+    "agrv_freertos": {
+      "package": "framework-agrv_freertos",
+      "script": "builder/frameworks/agrv_freertos.py"
+    },
+    "agrv_rtthread": {
+      "package": "framework-agrv_rtthread",
+      "script": "builder/frameworks/agrv_rtthread.py"
+    },
+    "agrv_ucos": {
+      "package": "framework-agrv_ucos",
+      "script": "builder/frameworks/agrv_ucos.py"
+    },
+    "agrv_embos": {
+      "package": "framework-agrv_embos",
+      "script": "builder/frameworks/agrv_embos.py"
     }
   },
   "packages": {
-    "toolchain-gccarmnoneeabi": {
+    "toolchain-agrv": {
       "type": "toolchain",
-      "version": ">=1.60301.0,<1.80000.0"
+      "version": ">0.0.0"
     },
-    "tool-artik-openocd": {
-      "type": "uploader",
-      "optional": true,
-      "version": ">=0.10.0"
+    "toolchain-agrv-clang": {
+      "type": "toolchain",
+      "version": ">0.0.0"
     },
-    "framework-tizenrt": {
+    "framework-agrv_sdk": {
+      "optional": false,
       "type": "framework",
-      "version": ">=1.2.0"
+      "version": ">0.0.0"
+    },
+    "framework-agrv_ips": {
+      "optional": true,
+      "type": "framework",
+      "version": ">0.0.0"
+    },
+    "framework-agrv_tinyusb": {
+      "optional": true,
+      "type": "framework",
+      "version": ">0.0.0"
+    },
+    "framework-agrv_lwip": {
+      "optional": true,
+      "type": "framework",
+      "version": ">0.0.0"
+    },
+    "framework-agrv_freertos": {
+      "optional": true,
+      "type": "framework",
+      "version": ">0.0.0"
+    },
+    "framework-agrv_rtthread": {
+      "optional": true,
+      "type": "framework",
+      "version": ">0.0.0"
+    },
+    "framework-agrv_ucos": {
+      "optional": true,
+      "type": "framework",
+      "version": ">0.0.0"
+    },
+    "framework-agrv_embos": {
+      "optional": true,
+      "type": "framework",
+      "version": ">0.0.0"
+    },
+    "tool-agrv_jlink": {
+      "optional": false,
+      "type": "uploader",
+      "version": ">0.0.0"
+    },
+    "tool-agrv_openocd": {
+      "optional": false,
+      "type": "uploader",
+      "version": ">0.0.0"
+    },
+    "tool-agrv_flashloader": {
+      "optional": false,
+      "type": "uploader",
+      "version": ">0.0.0"
+    },
+    "tool-agrv_logic": {
+      "optional": false,
+      "type": "uploader",
+      "version": ">0.0.0"
     }
   }
 }

@@ -1,0 +1,9 @@
+# For AG32 demo board
+
+SYSCLK 100
+HSECLK 8
+USB0 device
+
+GPIO6_2 PIN_23
+GPIO4_0 PIN_33
+GPIO4_1 PIN_34

@@ -1,0 +1,1 @@
+set_instance_assignment -name GLOBAL_SIGNAL OFF -to *|sck_i

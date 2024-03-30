@@ -1,0 +1,1 @@
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR -to PIN_78 ON; # USB0_ID

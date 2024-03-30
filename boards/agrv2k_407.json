@@ -1,0 +1,54 @@
+{
+  "build": {
+    "mabi": "ilp32f",
+    "march": "rv32imafc",
+    "mcmodel": "medlow",
+    "f_cpu": "240000000L",
+    "mcu": "agrv2k"
+  },
+  "debug": {
+    "jlink_device": "AltaRiscv",
+    "svd_path": "AgRV2K.svd",
+    "onboard_tools": [
+      "serial",
+      "cmsis-dap-openocd",
+      "cmsis-dap-openocd-jtag",
+      "jlink-openocd",
+      "jlink-openocd-jtag",
+      "stlink-dap-openocd-dapdirect_swd"
+    ],
+    "default_tools": [
+      "jlink-openocd"
+    ]
+  },
+  "frameworks": [
+    "agrv_sdk",
+    "agrv_ips",
+    "agrv_tinyusb",
+    "agrv_lwip",
+    "agrv_freertos",
+    "agrv_rtthread",
+    "agrv_ucos",
+    "agrv_embos"
+  ],
+  "name": "AgRV2K 407",
+  "device_id" : "0x40200001",
+  "upload": {
+    "maximum_ram_size": 131072,
+    "maximum_size": 1048576,
+    "protocols": [
+      "serial",
+      "cmsis-dap-openocd",
+      "cmsis-dap-openocd-jtag",
+      "jlink-openocd",
+      "jlink-openocd-jtag",
+      "stlink-dap-openocd-dapdirect_swd"
+    ],
+    "protocol": "jlink-openocd"
+  },
+  "logic": {
+    "device": "AGRV2KL100"
+  },
+  "url": "https://www.alta-gate.com/products",
+  "vendor": "Alta Gate"
+}
