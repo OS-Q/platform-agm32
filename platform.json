@@ -51,11 +51,11 @@
   "packages": {
     "toolchain-agrv": {
       "type": "toolchain",
-      "version": ">0.0.0"
+      "version": "https://github.com/os-q/toolchain-agrv.git"
     },
     "toolchain-agrv-clang": {
       "type": "toolchain",
-      "version": ">0.0.0"
+      "version": "https://github.com/os-q/toolchain-agrv-clang.git"
     },
     "framework-agrv_sdk": {
       "optional": false,
@@ -65,7 +65,7 @@
     "framework-agrv_ips": {
       "optional": true,
       "type": "framework",
-      "version": ">0.0.0"
+      "version": "https://github.com/os-q/framework-agrv_ips.git"
     },
     "framework-agrv_tinyusb": {
       "optional": true,
@@ -75,47 +75,47 @@
     "framework-agrv_lwip": {
       "optional": true,
       "type": "framework",
-      "version": ">0.0.0"
+      "version": "https://github.com/os-q/framework-agrv_lwip.git"
     },
     "framework-agrv_freertos": {
       "optional": true,
       "type": "framework",
-      "version": ">0.0.0"
+      "version": "https://github.com/os-q/framework-agrv_freertos.git"
     },
     "framework-agrv_rtthread": {
       "optional": true,
       "type": "framework",
-      "version": ">0.0.0"
+      "version": "https://github.com/os-q/framework-agrv_rtthread.git"
     },
     "framework-agrv_ucos": {
       "optional": true,
       "type": "framework",
-      "version": ">0.0.0"
+      "version": "https://github.com/os-q/framework-agrv_ucos.git"
     },
     "framework-agrv_embos": {
       "optional": true,
       "type": "framework",
-      "version": ">0.0.0"
+      "version": "https://github.com/os-q/framework-agrv_embos.git"
     },
     "tool-agrv_jlink": {
       "optional": false,
       "type": "uploader",
-      "version": ">0.0.0"
+      "version": "https://github.com/os-q/tool-agrv_jlink.git"
     },
     "tool-agrv_openocd": {
       "optional": false,
       "type": "uploader",
-      "version": ">0.0.0"
+      "version": "https://github.com/os-q/tool-agrv_openocd.git"
     },
     "tool-agrv_flashloader": {
       "optional": false,
       "type": "uploader",
-      "version": ">0.0.0"
+      "version": "https://github.com/os-q/tool-agrv_flashloader.git"
     },
     "tool-agrv_logic": {
       "optional": false,
       "type": "uploader",
-      "version": ">0.0.0"
+      "version": "https://github.com/os-q/tool-agrv_logic.git"
     }
   }
 }
