@@ -1,6 +1,6 @@
 {
-  "name": "AgRV",
-  "title": "Agm RiscV",
+  "name": "agm32rv",
+  "title": "Agm RISC-V",
   "description": "The AgRV family provides cutting edge re-configurable RISC-V based MCU hardware and software solutions.",
   "homepage": "https://www.alta-gate.com",
   "license": "Apache-2.0",
@@ -60,7 +60,7 @@
     "framework-agrv_sdk": {
       "optional": false,
       "type": "framework",
-      "version": ">0.0.0"
+      "version": "https://github.com/os-q/framework-agrv_sdk.git"
     },
     "framework-agrv_ips": {
       "optional": true,
@@ -70,7 +70,7 @@
     "framework-agrv_tinyusb": {
       "optional": true,
       "type": "framework",
-      "version": ">0.0.0"
+      "version": "https://github.com/os-q/framework-agrv_tinyusb.git"
     },
     "framework-agrv_lwip": {
       "optional": true,

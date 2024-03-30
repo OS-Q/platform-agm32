@@ -73,10 +73,10 @@ def append_uniq(to_list, from_list):
         if from_item not in to_list:
             to_list.append(from_item)
 
-class AgrvPlatform(PlatformBase):
+class Agm32rvPlatform(PlatformBase):
 
     def __init__(self, manifest_path):
-        super(AgrvPlatform, self).__init__(manifest_path)
+        super(Agm32rvPlatform, self).__init__(manifest_path)
 
         # Set the default debug_init_break to empty so that debug is not auto resumed in gdb.py
         ProjectOptions["env.debug_init_break"].default = ""

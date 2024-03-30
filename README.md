@@ -1,4 +1,4 @@
-# [platform-agm32](https://github.com/os-q/platform-agm32)
+# [platform-agm32rv](https://github.com/os-q/platform-agm32)
 
 [![Build Status](https://github.com/os-q/platform-agm32/workflows/examples/badge.svg)](https://github.com/os-q/platform-agm32/actions/workflows/examples.yml)
 
@@ -6,7 +6,7 @@
 
 ```ini
 [env:stable]
-platform = AgRV
+platform = agm32rv
 board = ...
 framework = agrv_sdk
 ...
