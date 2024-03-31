@@ -1,7 +1,7 @@
 """
-AgRV SDK Framework
+Agm32 SDK Framework
 
-Software for Developing on the AgRV Platform
+Software for Developing on the Agm32 Platform
 """
 
 import os, sys

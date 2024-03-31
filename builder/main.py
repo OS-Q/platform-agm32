@@ -7,7 +7,7 @@ except ImportError:
     env.Execute(
         env.VerboseAction(
             "$PYTHONEXE -m pip install psutil",
-            "Installing AgRV SDK's Python dependencies",
+            "Installing Agm32 SDK's Python dependencies",
         )
     )
 

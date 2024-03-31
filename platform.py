@@ -32,7 +32,7 @@ def platformio_preamble():
     pio_version = __version__
     agrv_version = open(join(dirname(__file__), "VERSION"), 'r', encoding='UTF-8').read()
     print("PlatformIO Core version: %s" % pio_version)
-    print("AgRV Core version: %s" % agrv_version)
+    print("Agm32 Core version: %s" % agrv_version)
     
     def ensure_core_version():
         XVERSION = ["5.2.2", "5.2.3", "5.2.4"]
@@ -73,10 +73,10 @@ def append_uniq(to_list, from_list):
         if from_item not in to_list:
             to_list.append(from_item)
 
-class Agm32rvPlatform(PlatformBase):
+class Agm32Platform(PlatformBase):
 
     def __init__(self, manifest_path):
-        super(Agm32rvPlatform, self).__init__(manifest_path)
+        super(Agm32Platform, self).__init__(manifest_path)
 
         # Set the default debug_init_break to empty so that debug is not auto resumed in gdb.py
         ProjectOptions["env.debug_init_break"].default = ""
